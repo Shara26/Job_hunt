@@ -24,8 +24,8 @@ filters:
     # systems / networking track — matches your DPDK, packet-processing and
     # kernel background. Drop these if you widen away from low-level work.
     - '\bnetwork(ing)?\s+(software\s+)?engineer\b'
-    - '\b(kernel|embedded|firmware|driver|packet|dataplane|data plane)\b.*\bengineer\b'
-    - '\bengineer\b.*\b(kernel|packet|dataplane|networking|performance)\b'
+    - '\b(data scientist|machine learning scientist|research scientist)\b'
+    - '\b(intern|internship|apprentice|trainee)\b'  
     - '\bperformance engineer\b'
     - '\bsystems engineer\b'
     - '\bc\+\+\b.*\bengineer\b'
@@ -40,10 +40,10 @@ filters:
     - '\bsenior\b'
     - '\b(director|vp|vice president|head of|chief|cto)\b'
     - '\b(manager|management)\b'
-    - '\b(intern|internship|apprentice|trainee)\b'                # too junior
+                   # too junior
     - '\b(sales|account executive|marketing|recruit|support|success)\b'
     - '\b(frontend|front-end|ios|android|mobile|game|designer)\b' # wrong discipline
-    - '\b(data scientist|machine learning scientist|research scientist)\b'
+   
 
   # Substrings matched against "<location> <title>", case-insensitive.
   # Leave empty to accept every location.
@@ -51,6 +51,8 @@ filters:
     - bangalore
     - bengaluru
     - india
+    - hyderabad
+    - pune
 
   # If true, anything reading as remote passes the location gate.
   allow_remote: true
@@ -63,7 +65,7 @@ filters:
 screen_batch_size: 8      # jobs per screening call. Higher = cheaper, sloppier.
 screen_jd_chars: 1400     # JD truncation for screening
 draft_jd_chars: 6000      # JD truncation for drafting
-score_threshold: 7.0      # below this, no draft and no digest slot
+score_threshold: 6.0      # below this, no draft and no digest slot
 max_per_digest: 5         # hard cap on expensive draft calls per run
 
 # --- paths ------------------------------------------------------------------

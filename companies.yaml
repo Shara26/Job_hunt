@@ -23,16 +23,18 @@
 # noise and makes the prefilter counts impossible to reason about.
 
 companies:
-  - {ats: greenhouse, slug: stripe,      name: Stripe}
-  - {ats: greenhouse, slug: databricks,  name: Databricks}
-  - {ats: greenhouse, slug: cloudflare,  name: Cloudflare}
-  - {ats: greenhouse, slug: figma,       name: Figma}
-  - {ats: greenhouse, slug: dropbox,     name: Dropbox}
-  - {ats: greenhouse, slug: coinbase,    name: Coinbase}
-  - {ats: greenhouse, slug: reddit,      name: Reddit}
-  - {ats: lever,      slug: voleon,      name: Voleon}
-
-  - {ats: ashby,      slug: openai,      name: OpenAI}
-  - {ats: ashby,      slug: ramp,        name: Ramp}
-  - {ats: ashby,      slug: linear,      name: Linear}
-  - {ats: ashby,      slug: vanta,       name: Vanta}
+ - {ats: ashby, slug: aiprise, name: AiPrise} 
+ - {ats: ashby, slug: ontic, name: Ontic}
+ - {ats: greenhouse, slug: graphcore-early-careers, name: Graphcore} 
+ - {ats: greenhouse, slug: karya, name: Karya} 
+ - {ats: ashby, slug: aistudio, name: AiStudio} 
+ - {ats: ashby, slug: sarvam, name: Sarvam}
+ - {ats: ashby, slug: interview-kickstart, name: Interview Kickstart} 
+ - {ats: ashby, slug: certifyos, name: CertifyOS} 
+ - {ats: lever, slug: drivetrain, name: Drivetrain} 
+ - {ats: ashby, slug: outmarket, name: Outmarket AI}
+ - {ats: greenhouse, slug: conga, name: Conga} 
+ - {ats: greenhouse, slug: bswiftindia, name: bswift India} 
+ - {ats: greenhouse, slug: coherehealth, name: Cohere Health} 
+ - {ats: lever, slug: hevodata, name: Hevo Data} 
+ - {ats: ashby, slug: laminar-jobs, name: Laminar} 
